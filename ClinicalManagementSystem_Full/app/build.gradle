@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.clinicalmanagement'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.clinicalmanagement'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '2.0'
+    }
+}
